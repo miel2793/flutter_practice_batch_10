@@ -27,7 +27,11 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'HomePage',
-          style: TextStyle(),
+          style: TextStyle(fontSize: 32,
+              fontWeight: FontWeight.bold,
+          color: Colors.white
+          ),
+
         ),
         //  centerTitle: true,
         backgroundColor: Colors.blueAccent,
