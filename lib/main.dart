@@ -11,6 +11,7 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: ' MY APP',
       home: Home(),
     );
@@ -33,8 +34,11 @@ class Home extends StatelessWidget {
       ),
       body: Text(
         'Miel Mahmud Sifat',
-        style: TextStyle(fontSize: 40, color: Colors.amberAccent,fontWeight:FontWeight.bold,),
-
+        style: TextStyle(
+          fontSize: 40,
+          color: Colors.amberAccent,
+          fontWeight: FontWeight.bold,
+        ),
       ),
     );
   }
