@@ -89,7 +89,7 @@ class Home extends StatelessWidget {
               style: TextStyle(
                   fontSize: 35,
                   fontWeight: FontWeight.w900,
-                  color: Colors.teal),
+                  color: Colors.red),
             ),Text(
               "Miel Mahmud Sifat",
               style: TextStyle(
@@ -101,7 +101,7 @@ class Home extends StatelessWidget {
               style: TextStyle(
                   fontSize: 35,
                   fontWeight: FontWeight.w900,
-                  color: Colors.teal),
+                  color: Colors.cyanAccent),
             ),Text(
               "Miel Mahmud Sifat",
               style: TextStyle(
@@ -113,7 +113,7 @@ class Home extends StatelessWidget {
               style: TextStyle(
                   fontSize: 35,
                   fontWeight: FontWeight.w900,
-                  color: Colors.teal),
+                  color: Colors.purple),
             ),Text(
               "Miel Mahmud Sifat",
               style: TextStyle(
