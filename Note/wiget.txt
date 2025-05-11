@@ -1,4 +1,8 @@
 
+
+
+
+
   there are 2 kind of wiget on  flutter
    1. state full =  যে স্ক্রিন এর ভ্যালু ,  Ui  চেইঞ্জ হতে পারে ।
    ২। State less = যেখানে স্ক্রিন চেইন হয় না এটা ফিক্সড
