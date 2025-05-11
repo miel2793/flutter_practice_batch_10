@@ -1,0 +1,10 @@
+maintain  the Structure of  app.
+ scaffold dilei white area ta ashe
+  its also entry point \
+
+   its also  extand from statefull wiget,
+
+     its contain
+     1 appbar
+
+
