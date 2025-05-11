@@ -35,8 +35,7 @@ class Home extends StatelessWidget {
 
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Text(
               "Miel Mahmud Sifat",
@@ -73,27 +72,9 @@ class Home extends StatelessWidget {
                   fontWeight: FontWeight.w900,
                   color: Colors.teal),
             ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
+
+
+
           ],
         ));
   }
