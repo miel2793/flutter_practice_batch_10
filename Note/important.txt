@@ -1,3 +1,7 @@
 1. our main work on lib folder.
 2.  pubspec.yaml is very important its called amolnama of a apps
-, cz all the apps description , assets,  and other thing  on this  file
+, cz all the apps description , assets, package ,
+ description and other thing  on this  file
+
+3. main code run from main .dart
+4
