@@ -40,10 +40,10 @@ class Home extends StatelessWidget {
 
       SingleChildScrollView(
         child: Container(
-          height: 200,
-          width: 300,
+          height: 1250,
+          width: 450,
           alignment: Alignment.center,
-          color: Colors.orange,
+          color: Colors.greenAccent,
           child: Column(
 
             children: [
