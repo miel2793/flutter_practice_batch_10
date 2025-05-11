@@ -24,26 +24,77 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'HomePage',
-          style: TextStyle(fontSize: 32,
-              fontWeight: FontWeight.bold,
-          color: Colors.white
+        appBar: AppBar(
+          title: Text(
+            'HomePage',
+            style: TextStyle(
+                fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
           ),
+          //  centerTitle: true,
+          backgroundColor: Colors.blueAccent,
 
         ),
-        //  centerTitle: true,
-        backgroundColor: Colors.blueAccent,
-      ),
-      body: Text(
-        'Miel Mahmud Sifat',
-        style: TextStyle(
-          fontSize: 40,
-          color: Colors.amberAccent,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    );
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+            Text(
+              "Miel Mahmud Sifat",
+              style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.teal),
+            ),
+          ],
+        ));
   }
 }
