@@ -1,169 +1,49 @@
-import 'package:flutter/material.dart';
-
-//main function start
-main() {
-  runApp(Myapp());
+import'package:flutter/material.dart';
+main()
+{
+  runApp(Miel());
 }
-
-class Myapp extends StatelessWidget {
-  const Myapp({super.key});
+class Miel extends StatelessWidget {
+  const Miel({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: ' MY APP',
+      title:'First App',
+      //theme: ThemeData(the),
       home: Home(),
+
     );
   }
 }
-
 class Home extends StatelessWidget {
   const Home({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(
-            'HomePage',
-            style: TextStyle(
-                fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white),
-          ),
-          //  centerTitle: true,
-          backgroundColor: Colors.blueAccent,
+      appBar: AppBar(
 
-        ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-      //    crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
-            Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),Text(
-              "Miel Mahmud Sifat",
-              style: TextStyle(
-                  fontSize: 35,
-                  fontWeight: FontWeight.w900,
-                  color: Colors.teal),
-            ),
+        backgroundColor: Colors.teal,
+        title: Text("Home",
+        style: TextStyle(
+          fontSize: 35,
+          fontWeight: FontWeight.bold,
+          color: Colors.white
+        )
+          ,),
 
 
+      ),
+      body:Column(
 
+        children: [
+          Text('Miel Mahmud Sifat')
+        ],
+      ),
+    );
 
-          ],
-        ));
   }
 }
+
