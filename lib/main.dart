@@ -35,7 +35,8 @@ class Home extends StatelessWidget {
 
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.center,
+      //    crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
               "Miel Mahmud Sifat",
